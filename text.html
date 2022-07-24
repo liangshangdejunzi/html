@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG文本</title>
+</head>
+<body>
+    <svg width="300" height="30">
+        <text x="0" y="15" fill="red">我爱SVG</text>
+    </svg>
+    <br>
+    <svg width="200" height="60">
+       <text x="0" y="15" fill="red" transform="rotate(30 20,40)">我爱svg</text>
+    </svg>
+    <br>
+    <svg width="200" height="90">
+       <text x="10" y="20" fill="red">
+        several lines
+        <tspan x="10" y="45">first line</tspan>
+        <tspan x="10" y="70">second line</tspan>
+       </text>
+    </svg>
+    <br>
+    <svg width="200" height="30" xmlns:xlink="https://www.bilibili.com/">
+        <a href="text2.html" target="_black">
+            <text x="10" y="15" fill="red">我爱svg</text>
+        </a>
+    </svg>
+</body>
+</html>
